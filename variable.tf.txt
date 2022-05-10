@@ -4,7 +4,7 @@ variable "public_key" {
 }
 # Defining Private Key
 variable "private_key" {
-  default = "tests.pem"
+  default = "manojpro.pem"
 }
 # Definign Key Name for connection
 variable "key_name" {
