@@ -1,3 +1,13 @@
+resource "aws_instance" "ec2_example" {
+    ami = "ami-09d56f8956ab235b3"  
+    instance_type = "t2.micro" 
+    tags = {
+        Name = "Terraform EC2"
+    }
+}
+
+
+
 terraform {
   required_providers {
     aws = {
